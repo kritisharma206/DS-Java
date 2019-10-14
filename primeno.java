@@ -1,12 +1,13 @@
+// prime numbers
 import java.util.*;
 public class primeno
 {
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
-        int x=sc.nextInt();
+        Scanner sc=new Scanner(System.in); //scanner
+        int x=sc.nextInt();  // upto which number
 
-        for(int n=2;n<x;n++)
+        for(int n=2;n<x;n++)  
         {
             int flag=0;
             for(int i=2;i<n;i++)
