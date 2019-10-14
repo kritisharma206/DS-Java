@@ -1,4 +1,5 @@
  //index variable
+//star pattern
 public class Loop
 {
 	public static void main(String args[])
@@ -6,7 +7,7 @@ public class Loop
 		for(int i=0;i<5;i++)
 		{
 			for(int j=i;j<5;j++) {
-				System.out.print("*");
+				System.out.print("*"); // * gonna print as looping goes
 			}
 			System.out.println();
 		}
