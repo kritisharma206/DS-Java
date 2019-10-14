@@ -2,14 +2,14 @@ public class e1
 {
     public static void main(String Args[])
     {
-        int x[]=new int[10];
+        int x[]=new int[10]; // array
         try
         {
             int y=5/0;
             x[12]=100;
 
         }
-        catch (ArithmeticException r)
+        catch (ArithmeticException r) //catch exception
         {
             System.out.println(r);
         }
